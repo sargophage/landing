@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={8}>
-            <Row>
+            <Row className="justify-content-center">
               {
                 links.map((link, key) =>
                   <Col key={key} md={4}>
