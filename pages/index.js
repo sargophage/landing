@@ -11,8 +11,8 @@ const Index = () => {
     <Layout pageTitle="Landing Page Nextjs">
       <Header />
       <Hero />
-      <Feature/>
-      <Service />
+      <Feature />
+      {/* <Service /> */}
       <About />
       <Footer />
     </Layout>

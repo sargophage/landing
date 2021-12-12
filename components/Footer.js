@@ -11,24 +11,25 @@ const Footer = () => {
     //       { title : "LOREM IPSUM", link : "/" }
     //   ]
     // },
-    { id : 2, title : "About Us",
-      child : [
-          { title : "Contact Us", link : "/" },
-          { title : "FAQs", link : "/" },
-          { title : "Privacy Policy", link : "/" },
+    {
+      id: 2, title: "About Us",
+      child: [
+        { title: "Contact Us", link: "/" },
+        { title: "FAQs", link: "/" },
+        { title: "Privacy Policy", link: "/" },
       ]
     },
   ];
-  
+
   return (
     <section className="footer section">
       <Container>
         <Row>
           <Col lg={4}>
-              <div className="mb-4">
-                <p className="text-muted mt-4 mb-2">email@email.com</p>
-                <h6 className="text-muted font-weight-normal">+99 1234-5678-9</h6>
-              </div>
+            <div className="mb-4">
+              <p className="text-muted mt-4 mb-2"><a href="mailto:contact@sargowaze.com">contact@sargowaze.com</a></p>
+              <h6 className="text-muted font-weight-normal"><a href="tel:+33 64 94 54 17<">+33 64 94 54 17</a></h6>
+            </div>
           </Col>
           <Col lg={8}>
             <Row>
@@ -46,14 +47,14 @@ const Footer = () => {
                   </Col>
                 )
               }
-              
+
               <Col md={4}>
                 <h6 className="text-dark mb-3">Our Address</h6>
-                <p className="text-muted f-14">1234 Lorem Ipsum dummy text, 12345</p>
-                <h6 className="text-muted pb-2">Email: email@email.com</h6>
+                <p className="text-muted f-14">Martinique FWI</p>
+                <h6 className="text-muted pb-2">Email: <a href="mailto:contact@sargowaze.com">contact@sargowaze.com</a></h6>
                 <ul className="list-unstyled footer-social-list mt-4">
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-facebook"></i></a></li>
-                  <li className="list-inline-item"><a href="#"><i className="mdi mdi-instagram"></i></a></li>
+                  <li className="list-inline-item"><a href="https://www.instagram.com/sargowaze"><i className="mdi mdi-instagram"></i></a></li>
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-linkedin"></i></a></li>
                 </ul>
               </Col>
@@ -64,7 +65,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              <p className="mb-0 f-15">2020 © Name. Design by Name</p>
+              <p className="mb-0 f-15">2021 © Sargowaze</p>
             </div>
           </Col>
         </Row>
