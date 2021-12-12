@@ -28,7 +28,7 @@ const Footer = () => {
           <Col lg={4}>
             <div className="mb-4">
               <p className="text-muted mt-4 mb-2"><a href="mailto:contact@sargowaze.com">contact@sargowaze.com</a></p>
-              <h6 className="text-muted font-weight-normal"><a href="tel:+33 64 94 54 17<">+33 64 94 54 17</a></h6>
+              <h6 className="text-muted font-weight-normal"><a href="tel:+33 64 94 54 17">+33 64 94 54 17</a></h6>
             </div>
           </Col>
           <Col lg={8}>
