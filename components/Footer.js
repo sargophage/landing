@@ -3,14 +3,14 @@ import { Container, Row, Col } from "reactstrap";
 
 const Footer = () => {
   const links = [
-    { id : 1, title : "Feature",
-      child : [
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" }
-      ]
-    },
+    // { id : 1, title : "Feature",
+    //   child : [
+    //       { title : "LOREM IPSUM", link : "/" },
+    //       { title : "LOREM IPSUM", link : "/" },
+    //       { title : "LOREM IPSUM", link : "/" },
+    //       { title : "LOREM IPSUM", link : "/" }
+    //   ]
+    // },
     { id : 2, title : "About Us",
       child : [
           { title : "Contact Us", link : "/" },
