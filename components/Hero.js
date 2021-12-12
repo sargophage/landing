@@ -11,8 +11,8 @@ const Hero = () => {
               <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Sargowaze</p>
               <h1 className="mb-4 font-weight-normal line-height-1_4">Forecasts, monitoring and decision support for
                 <span className="text-primary font-weight-medium"> Sargassum</span></h1>
-              <p className="text-muted mb-4 pb-2">Sargowaze is an application to measure, monitor, forecast and suport
-                the handling of Sargassum beaching</p>
+              <p className="text-muted mb-4 pb-2">Always know what's happening on the beaches with Sargowaze. Our prevision app, powered by the community is a tool to measure, monitor, forecast and suport
+                the handling of Sargassum beaching. Wanna help?</p>
               <a href="#" className="btn btn-warning">
                 Find Out How <span className="ml-2 right-icon">&#8594;</span>
               </a>
