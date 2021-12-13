@@ -41,6 +41,14 @@ const About = () => {
             </Row>
           </Col>
         </Row>
+        <Row className="justify-content-center">
+          <Col lg={6} md={8}>
+            <div className="title text-center mb-5">
+              <img src="/images/plage-sargasse.png" alt="" className="img-fluid mx-auto d-block" />
+            </div>
+
+          </Col>
+        </Row>
       </Container>
     </section>
   );
