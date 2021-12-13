@@ -27,7 +27,7 @@ const Footer = () => {
         <Row>
           <Col lg={4}>
             <div className="mb-4">
-              <p className="text-muted mt-4 mb-2"><a href="mailto:contact@sargowaze.com">contact@sargowaze.com</a></p>
+              <p className="text-muted mt-4 mb-2"><a href="mailto:bruno@sargowaze.com">bruno@sargowaze.com</a></p>
               <h6 className="text-muted font-weight-normal"><a href="tel:+33 64 94 54 17">+33 64 94 54 17</a></h6>
             </div>
           </Col>
@@ -51,7 +51,7 @@ const Footer = () => {
               <Col md={4}>
                 <h6 className="text-dark mb-3">Our Address</h6>
                 <p className="text-muted f-14">Martinique FWI</p>
-                <h6 className="text-muted pb-2">Email: <a href="mailto:contact@sargowaze.com">contact@sargowaze.com</a></h6>
+                <h6 className="text-muted pb-2">Email: <a href="mailto:bruno@sargowaze.com">bruno@sargowaze.com</a></h6>
                 <ul className="list-unstyled footer-social-list mt-4">
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-facebook"></i></a></li>
                   <li className="list-inline-item"><a href="https://www.instagram.com/sargowaze"><i className="mdi mdi-instagram"></i></a></li>
