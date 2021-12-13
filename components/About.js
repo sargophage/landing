@@ -49,6 +49,7 @@ const About = () => {
 
           </Col>
         </Row>
+
       </Container>
     </section>
   );
