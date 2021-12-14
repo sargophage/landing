@@ -69,18 +69,6 @@ const Feature = () => {
           </Col>
         </Row>
         <FeatureBox features={features} />
-
-        <Row className="justify-content-center">
-          <Col lg={6} md={8}>
-            <p className="text-muted font-weight-light">Here is a sneak peek of our Dispersal Model with and without interception: the engine behind Sargowaze forecasts.</p>
-            <div className="title text-center mb-5">
-              <video width="320" height="240" controls className="img-fluid mx-auto d-block">
-                <source src="/images/model.mp4" type="video/mp4" />
-              </video>
-            </div>
-
-          </Col>
-        </Row>
       </Container>
     </section>
   );
